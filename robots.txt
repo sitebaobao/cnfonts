@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://cnfonts.pages.dev/sitemap.xml
+Sitemap: https://cnfonts-git.pages.dev/sitemap.xml
