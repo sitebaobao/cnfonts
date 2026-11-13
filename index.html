@@ -15,7 +15,8 @@ h3{font-size:1rem;margin:1.6em 0 .3em}
 p{margin:.6em 0}
 .meta{color:#5b6472;font-size:.85rem;margin:0 0 1.8em}
 table{width:100%;border-collapse:collapse;margin:.8em 0;font-size:.9rem;table-layout:fixed}
-th,td{text-align:left;padding:.45em .55em;border-bottom:1px solid #e3e8ef;vertical-align:top;overflow-wrap:break-word}
+.tw{overflow-x:auto}
+th,td{text-align:left;padding:.45em .55em;border-bottom:1px solid #e3e8ef;vertical-align:top;word-break:keep-all;overflow-wrap:anywhere}
 th{background:#f1f4f8;font-weight:600}
 tr:nth-child(even) td{background:#f7f9fb}
 td code,th code{white-space:nowrap}
@@ -36,8 +37,9 @@ footer{margin-top:3em;padding-top:1em;border-top:1px solid #dfe5ec;color:#5b6472
 <p class="meta">2026-11-13 核验 · 授权逐条对照官方仓库 <code>LICENSE</code> 原文 · 商用前请读“三条硬规则”</p>
 
 <h2>速查矩阵</h2>
+<div class="tw">
 <table>
-<colgroup><col style="width:16%"><col style="width:13%"><col style="width:16%"><col style="width:17%"><col style="width:38%"></colgroup>
+<colgroup><col style="width:15%"><col style="width:12%"><col style="width:19%"><col style="width:16%"><col style="width:28%"></colgroup>
 <tr><th>字体</th><th>授权</th><th>字重</th><th>覆盖</th><th>国内下载</th></tr>
 <tr><td>思源黑体 Source Han Sans</td><td>SIL OFL 1.1</td><td>9 档（Thin→Heavy）</td><td>简、繁、日、韩，含拉丁</td><td>GitHub <code>adobe-fonts/source-han-sans</code> 发布页；用 <code>gh api</code> 拉产物</td></tr>
 <tr><td>思源宋体 Source Han Serif</td><td>SIL OFL 1.1</td><td>7 档</td><td>简、繁、日、韩</td><td>GitHub <code>adobe-fonts/source-han-serif</code></td></tr>
@@ -46,6 +48,7 @@ footer{margin-top:3em;padding-top:1em;border-top:1px solid #dfe5ec;color:#5b6472
 <tr><td>站酷小薇 ZCOOL XiaoWei</td><td>SIL OFL 1.1</td><td>单档（Regular 400）</td><td>简、拉丁</td><td>Google Fonts 镜像 <code>fonts.loli.net</code>；GitHub <code>googlefonts/zcool-xiaowei</code></td></tr>
 <tr><td>HarmonyOS Sans SC</td><td>华为自定义许可（非 OFL）</td><td>多档 + 可变</td><td>简、繁，多语种</td><td>华为开发者官网 <code>developer.huawei.com</code> 字体页；OpenHarmony 仓库 <code>LICENSE_Fonts</code></td></tr>
 </table>
+</div>
 
 <h2>按场景选</h2>
 <ul>
@@ -74,6 +77,7 @@ footer{margin-top:3em;padding-top:1em;border-top:1px solid #dfe5ec;color:#5b6472
 </ol>
 
 <h2>国内下载渠道</h2>
+<div class="tw">
 <table>
 <colgroup><col style="width:22%"><col style="width:15%"><col style="width:63%"></colgroup>
 <tr><th>渠道</th><th>状态</th><th>用法</th></tr>
@@ -82,6 +86,7 @@ footer{margin-top:3em;padding-top:1em;border-top:1px solid #dfe5ec;color:#5b6472
 <tr><td>jsDelivr</td><td>可直连</td><td>取已发布到 npm 的字体包，按版本锁路径</td></tr>
 <tr><td>华为开发者官网</td><td>可直连</td><td>HarmonyOS Sans 字体页下载，随包协议原文一起留存</td></tr>
 </table>
+</div>
 
 <h2>核验来源</h2>
 <ul>
