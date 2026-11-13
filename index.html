@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>可商用中文字体清单 · 授权、下载与避坑</title>
+<meta name="description" content="可自由商用的开源中文字体清单：授权协议、字形特点、国内下载渠道，以及商用时的三条硬性规则与常见坑。">
+<link rel="canonical" href="https://cnfonts.pages.dev/">
+<style>
+:root{--fg:#1c1c1c;--fg2:#5a5a5a;--bg:#fff;--bd:#e6e6e6;--ac:#1a5b8c}
+*{box-sizing:border-box}
+body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.75;color:var(--fg);background:var(--bg);margin:0;padding:2rem 1.1rem;max-width:780px;margin-inline:auto}
+h1{font-size:1.5rem;margin:.2rem 0 .3rem}
+h2{font-size:1.15rem;margin:2.2rem 0 .6rem;border-bottom:1px solid var(--bd);padding-bottom:.3rem}
+p{margin:.5rem 0}
+.sub{color:var(--fg2);font-size:.9rem;margin:0 0 1.6rem}
+table{border-collapse:collapse;width:100%;font-size:.92rem;margin:.7rem 0}
+th,td{border:1px solid var(--bd);padding:.5rem .6rem;text-align:left;vertical-align:top}
+th{background:#fafafa;font-weight:600}
+td a{color:var(--ac);text-decoration:none}
+td a:hover{text-decoration:underline}
+ul{margin:.4rem 0 .8rem;padding-left:1.35rem}
+li{margin:.35rem 0}
+.rule{background:#f7f9fb;border-left:3px solid var(--ac);padding:.7rem .9rem;margin:.7rem 0;font-size:.95rem}
+code{background:#f2f2f2;padding:.1rem .35rem;font-size:.88rem;word-break:break-all}
+.warn{background:#fff8f4;border-left:3px solid #d4623a;padding:.7rem .9rem;margin:.7rem 0;font-size:.95rem}
+footer{margin:2.6rem 0 0;padding-top:1rem;border-top:1px solid var(--bd);color:var(--fg2);font-size:.88rem}
+footer a{color:var(--fg2)}
+</style>
+</head>
+<body>
+
+<h1>可商用中文字体清单</h1>
+<p class="sub">授权协议 · 字形特点 · 国内下载渠道 · 商用避坑 ｜ 更新于 2026 年 11 月 13 日</p>
+
+<h2>一、开源中文字体（可自由商用）</h2>
+<table>
+<tr><th>字体</th><th>协议</th><th>特点</th><th>官方仓库</th></tr>
+<tr><td>霞鹜文楷 / LXGW WenKai</td><td>SIL OFL 1.1</td><td>基于日本 Fontworks 的 Klee One 增补改造，楷体气质，适合中等长度文本与注释排版</td><td><a href="https://github.com/lxgw/LxgwWenKai">github.com/lxgw/LxgwWenKai</a></td></tr>
+<tr><td>霞鹜文楷 GB</td><td>SIL OFL 1.1</td><td>按中国大陆字形标准（G 源字形）进一步调整，字形更符合大陆楷体书写习惯</td><td><a href="https://github.com/lxgw/LxgwWenKaiGB">github.com/lxgw/LxgwWenKaiGB</a></td></tr>
+<tr><td>芫荽 / Iansui</td><td>SIL OFL 1.1</td><td>台湾设计师制作的衍生版本，台湾用字习惯</td><td><a href="https://github.com/ButTaiwan/iansui">github.com/ButTaiwan/iansui</a></td></tr>
+<tr><td>思源黑体 / Source Han Sans</td><td>SIL OFL 1.1</td><td>Adobe 与 Google 合作的 Pan-CJK 黑体，字重齐全，正文与界面通用</td><td><a href="https://github.com/adobe-fonts/source-han-sans">github.com/adobe-fonts/source-han-sans</a></td></tr>
+<tr><td>思源宋体 / Source Han Serif</td><td>SIL OFL 1.1</td><td>Pan-CJK 宋体，长文排版与书籍正文常用</td><td><a href="https://github.com/adobe-fonts/source-han-serif">github.com/adobe-fonts/source-han-serif</a></td></tr>
+<tr><td>Noto Sans SC / Noto Serif CJK</td><td>SIL OFL 1.1</td><td>Google 的泛 CJK 字族，覆盖简体、繁体、日韩，缺字兜底能力强</td><td><a href="https://github.com/notofonts/noto-cjk">github.com/notofonts/noto-cjk</a></td></tr>
+</table>
+
+<p>另有「晰致尚铭」系列（霞鹜小黑等）采用 <b>IPA 协议</b>。IPA 对衍生字体再分发有限制，用于软件、操作系统、游戏、网站等嵌入用途前需自行评估合规成本；该系列附属仓库已进入归档状态，不再随主项目更新。</p>
+
+<h2>二、商用时的三条硬性规则</h2>
+<div class="rule"><b>1. 字体文件不能单独卖。</b>OFL 1.1 第 1 条：字体文件（TTF/OTF）不可单独出售。可以随软件、随作品捆绑分发，但不能把字体文件本身挂出来卖。淘宝、小红书上在售的开源字体基本都违反这一条，付的钱不会流向作者，也拿不到更新。</div>
+<div class="rule"><b>2. 衍生字体不能用保留名称。</b>OFL 1.1 第 3 条：改过的字体不能沿用原字体的"保留名称"。霞鹜系列的保留名称是<b>霞鹜（霞鶩）、落霞孤鹜（落霞孤鶩）、LXGW</b>；思源系列的保留名称是 <b>Source</b>（Source 是 Adobe 的商标）。基于它们做的衍生字体，没有作者书面授权，名称里不能出现这些字样。</div>
+<div class="rule"><b>3. 再分发必须带授权全文。</b>OFL 1.1 第 4 条：把字体打包分发（含嵌入、随软件发布）时，必须附带 OFL.txt 全文。字体也不能改换到 OFL 之外的其他协议下发布。</div>
+
+<p>特例说明：仅为网页渲染优化做的子集化与 WOFF/WOFF2 格式转换，且不作为可安装桌面字体提供下载的，可以继续使用保留名称（Google Fonts、ZSFT 等作者认可的托管平台适用；其他平台需联系作者确认）。未改源码、直接重新编译的字体也可继续用保留名称。</p>
+
+<h2>三、国内使用时的两个坑</h2>
+<div class="warn"><b>法务要"授权证明"时，OFL 会卡住。</b>不少公司法务部门不认可开源协议的效力，要求提供传统授权证明。作者的建议是：遇到这种情况放弃使用开源字体，改用在法务上可开具证明的免费商用字体，或买商业版权字体。</div>
+<div class="warn"><b>手机主题商店基本走不通。</b>国内手机品牌主题商店通常只对企业开放字体上传权限；少数允许个人上传的，要求提供版权登记证明。开源二创字体的著作权归属本身可能有争议，这条路上别硬试。</div>
+
+<h2>四、国内下载渠道</h2>
+<ul>
+<li><b>GitHub Release</b>：各仓库 Releases 页下载 TTF，最权威，版本最新。</li>
+<li><b>重庆大学开源镜像站</b>：<a href="https://mirrors.cqu.edu.cn/github-release/lxgw/">mirrors.cqu.edu.cn/github-release/lxgw/</a>，国内速度快，GitHub 项目更新后同步。</li>
+<li><b>蓝奏云</b>（霞鹜系列，密码 <code>8ppk</code>）、<b>永硕 E 盘</b>：<a href="http://lxgw.ysepan.com/">lxgw.ysepan.com</a>，项目更新后 48–72 小时内更新。</li>
+<li><b>猫啃网、Zfont、字加</b>：收录齐全，但版本可能落后于 GitHub，下载前对一下版本号。</li>
+</ul>
+
+<h2>五、安装</h2>
+<ul>
+<li>macOS（已装 Homebrew）：<code>brew install font-lxgw-wenkai</code></li>
+<li>Windows（已装 Scoop）：<code>scoop bucket add nerd-fonts &amp;&amp; scoop install LXGWWenKai</code>，等宽版为 <code>LXGWWenKaiMono</code></li>
+<li>网页使用：参考 <a href="https://github.com/lxgw/LxgwWenKai/issues/24">LXGW Issue #24</a>，或在 <a href="https://fonts.zeoseven.com/">ZSFT</a> 查找霞鹜系列网页字体</li>
+</ul>
+
+<footer>
+本页所列字体、协议条款、渠道均逐条核对自各字体官方仓库与项目 README。字体作者维护的项目地址：<a href="https://github.com/lxgw/lxgw/blob/main/fonts.md">lxgw 字体列表</a>。
+本页只做整理与索引，不托管字体文件；发现页面里的信息过期或有出入，欢迎指出。
+</footer>
+
+</body>
+</html>
